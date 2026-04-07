@@ -1,0 +1,28 @@
+{
+  "name": "termpet",
+  "version": "1.0.0",
+  "description": "🐾 Terminal virtual pet — your Tamagotchi lives in the CLI. Feed, play, and care for your ASCII companion. Zero dependencies.",
+  "main": "lib/index.js",
+  "bin": {
+    "termpet": "bin/termpet.js"
+  },
+  "scripts": {
+    "start": "node bin/termpet.js",
+    "test": "node bin/termpet.js status"
+  },
+  "keywords": [
+    "terminal",
+    "pet",
+    "virtual-pet",
+    "tamagotchi",
+    "cli",
+    "ascii-art",
+    "fun",
+    "game"
+  ],
+  "author": "nadonghuang",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
